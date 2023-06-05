@@ -1,6 +1,27 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+   margin-left:600px;
+  margin-top: 50px;
 }
+/* .dateBox{
+  box-shadow : 0 0 11px blue;
+  width: 175px;
+  height: 20px;
+  color: blue;
+  border: gray;
+  border-radius:5px;
+  background-color: lightblue;
+}
+
+h1{
+  color: blue;
+  width: 200px;
+}
+
+h1:hover,.dateBox:hover{
+  background-color: white;
+  color: black;
+} */
 
 .App-logo {
   height: 40vmin;

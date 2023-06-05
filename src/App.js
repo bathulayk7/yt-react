@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MultiSelectReact from "./components/dropdwonMultiSelect/MultiSelectReact";
+// import SelectArrayOfObjects from "./components/dropDownSelect/SelectArrayOfObjects";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Frame work from udemy site
-        </a>
-      </header>
-    </div>
-  );
-}
-
+const App = () => {
+  return(
+  <div className="App">
+    {/* <SelectArrayOfObjects hasValue="" initial="Country..." labelText="Select the Country" /> */}
+    <MultiSelectReact/>
+  </div>
+  )
+};
 export default App;
